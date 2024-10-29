@@ -8,7 +8,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Architecture](#architecture)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -42,22 +41,9 @@ The Intruder Detection System is a wireless security solution designed to detect
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/intruder-detection-system.git
-   cd intruder-detection-system
+   git clone https://github.com/kirteymanr/Intruder_Detection_System.git
+   cd Intruder_Detection_System
 
-## Set up the Hardware
-- Connect the pressure sensors and geophone sensor to the microcontroller according to the circuit diagram provided in the repository.
-
-## Install Required Libraries
-- Open the Arduino IDE and install the required libraries through the Library Manager.
-
-## Upload the Code
-1. Open the `main.ino` file in the Arduino IDE.
-2. Update the Wi-Fi credentials and MQTT broker details in the code.
-3. Upload the code to the microcontroller.
-
-## Start the MQTT Broker
-- If using Mosquitto, follow the installation instructions on the Mosquitto website and start the broker.
 
 ## Usage
 1. Power the system on. The sensors will start detecting any pressure or vibrations in the area.
@@ -70,9 +56,6 @@ The system architecture consists of:
 - **Controller Layer**: Microcontroller to process sensor data and communicate with the MQTT broker.
 - **Communication Layer**: Wi-Fi module for sending alerts and receiving commands.
 - **User Interface**: MQTT client to receive and visualize alerts.
-
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
